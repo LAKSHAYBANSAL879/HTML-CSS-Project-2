@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+*{
+    margin: 0;padding: 0;
+
+}
+body{
+    background-color: beige;
+}
+header{
+    background-color: beige;
+    width: 100%;
+    max-height: 15vh;
+}
+
+.nav{
+    display: flex;
+    gap: 4vw;
+    list-style: none;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    /* justify-content: center; */
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Delicious Handrawn', cursive;
+}
+.cont{
+    width: 50%;
+    margin-left: 4vw;
+    display: flex;
+    flex-direction: column;
+}
+.cont h1{
+    font-size: 55px;
+
+}
+.cont h4{
+    font-size: 20px;
+}
+main{
+    display: flex;
+    align-items: center;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vh 1vw;
+    margin-left: 15vw;
+    align-content: flex-end;
+    /* align-items: flex-end; */
+    /* align-self: center; */
+}
+.cont button{
+    width: 8vw;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+    height: 4vh;
+    margin-top: 3vh;
+    background-color: rgb(44, 159, 44);
+    font-size: 15px;
+    font-weight: bold;
+   border-radius: 30px;
+    cursor: pointer;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button:hover{
+    background-color: white;
+    color:rgb(44, 159, 44);
+}
+a:hover{
+    background-color: black;
+    color: beige;
+    border-radius: 30px;
+}
